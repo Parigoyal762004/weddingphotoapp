@@ -1,0 +1,8 @@
+# Ensure that all text files use LF in the repo, but CRLF on Windows
+* text=auto
+
+# Binary files should be handled differently
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
